@@ -1,0 +1,66 @@
+.hut{
+  &__bg{
+    padding: 67px 423px 211px 423px;
+    background: url("../../src/images/hut/bg.png") center/cover no-repeat;
+  }
+  &__bg2{
+    background: url("../../src/images/hut/bg2.png") center/cover no-repeat;
+  }
+  &__bg3{
+    background: url("../../src/images/hut/bg3.png") center/cover no-repeat;
+  }
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    &-address{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: #FFFFFF;
+    }
+  }
+  &__main{
+    display: flex;
+    column-gap: 141px;
+    align-items: center;
+    margin: 150px 0;
+  }
+  &__content{
+    &-title{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 40px;
+      color: #5B6460;
+    }
+    &-links{
+      display: flex;
+      column-gap: 31px;
+      margin: 50px 0;
+    }
+    &-link{
+      font-family: 'Open Sans',sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 18px;
+      color: #5B6460;
+      cursor: pointer;
+    }
+    &-text{
+      font-family: 'Open Sans',sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 30px;
+      color: #333333;
+    }
+  }
+  &__img{
+    width: 546px;
+    height: 478px;
+  }
+}

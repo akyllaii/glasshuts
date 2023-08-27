@@ -1,0 +1,14 @@
+{
+  "name": "glasshuts",
+  "version": "1.0.0",
+  "description": "exam project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omurbekova Akylai",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

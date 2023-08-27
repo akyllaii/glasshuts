@@ -1,0 +1,90 @@
+.pay{
+  margin: 100px 0 150px 0;
+  &__content{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #5B6460;
+  }
+  &__person{
+    display: flex;
+    column-gap: 24px;
+  }
+  &__input{
+    width: 318px;
+    height: 50px;
+    border: 0.7px solid #5B6460;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+    margin: 24px 0;
+    padding-left: 22px;
+  }
+  &__card{
+    width: 660px;
+    height: 50px;
+    border: 0.7px solid #5B6460;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+    margin-top: 24px;
+    padding-left: 22px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 24px;
+  }
+  &__textarea{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #828282;
+    width: 660px;
+    height: 100px;
+    padding: 16px 0 0 22px;
+    resize: none;
+    margin-top: 20px;
+  }
+  &__check{
+    margin: 53px 0;
+  }
+  &__terms{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    span{
+      font-weight: 700;
+      text-decoration-line: underline;
+      color: #5B6460;
+      cursor: pointer;
+    }
+  }
+  &__btn{
+    font-family: 'DIN-Regular',sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #5B6460;
+    padding: 16px 125px;
+    border: 1px solid #5B6460;
+    cursor: pointer;
+  }
+  &__with{
+    display: flex;
+    column-gap: 380px;
+    align-items: center;
+  }
+}

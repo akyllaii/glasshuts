@@ -1,0 +1,52 @@
+.denmark{
+  position: relative;
+  background: url("../images/denmark/denmark-bg.png") center/cover no-repeat;
+  padding: 95px 58px 415px 596px;
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+  &__text{
+    font-family: 'Mulish',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+  &__booking{
+    display: flex;
+    position: absolute;
+    bottom: -36px;
+    left: 146px;
+    &-btn{
+      background: #5B6460;
+      padding: 36px 80px;
+      border: none;
+      font-family: 'DIN-Regular',sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+    &-price{
+      background: #E9ECE0;
+      padding: 22px 34px;
+      &-text{
+        font-family: 'DIN-Regular',sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        color: #333333;
+        span{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

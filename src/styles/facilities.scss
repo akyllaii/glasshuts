@@ -1,0 +1,32 @@
+.facilities{
+  background: #5B6460;
+  padding: 150px 290px;
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 120px;
+    color: #FFFFFF;
+  }
+  &__icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px 20px;
+  }
+  &__item{
+    width: calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-title{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+}

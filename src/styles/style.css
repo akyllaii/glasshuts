@@ -1,0 +1,888 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Mulish&family=Open+Sans:wght@300;400;500;600&display=swap");
+@import url("https://fonts.cdnfonts.com/css/din-regular");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1408px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__nav {
+  padding: 18px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  column-gap: 36px;
+}
+.header__item {
+  font-family: "DIN-Regular", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.header__item:hover {
+  text-decoration: underline;
+}
+.header__btn {
+  font-family: "DIN-Regular";
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 16px 60px;
+  color: #FFFFFF;
+  background: #5B6460;
+  border: none;
+  cursor: pointer;
+}
+
+.denmark {
+  position: relative;
+  background: url("../images/denmark/denmark-bg.png") center/cover no-repeat;
+  padding: 95px 58px 415px 596px;
+}
+.denmark__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 70px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.denmark__text {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.denmark__booking {
+  display: flex;
+  position: absolute;
+  bottom: -36px;
+  left: 146px;
+}
+.denmark__booking-btn {
+  background: #5B6460;
+  padding: 36px 80px;
+  border: none;
+  font-family: "DIN-Regular", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.denmark__booking-price {
+  background: #E9ECE0;
+  padding: 22px 34px;
+}
+.denmark__booking-price-text {
+  font-family: "DIN-Regular", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+}
+.denmark__booking-price-text span {
+  font-size: 20px;
+}
+
+.cabins {
+  margin: 150px 0;
+}
+.cabins__top {
+  display: flex;
+  padding-left: 147px;
+  column-gap: 105px;
+  align-items: center;
+}
+.cabins__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #5B6460;
+  margin-bottom: 50px;
+}
+.cabins__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+.cabins__down {
+  overflow: hidden;
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+  margin-top: 150px;
+  height: 53vh;
+}
+.cabins__down-slide {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+}
+.cabins__slide {
+  height: 47vh;
+  flex: 1;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+
+.active {
+  flex: 10;
+}
+
+.forest__content {
+  display: flex;
+}
+.forest__right {
+  width: 62%;
+  background: #E9ECE0;
+  padding: 100px 129px 0 110px;
+}
+.forest__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #5B6460;
+  margin-bottom: 50px;
+}
+.forest__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+.forest__left {
+  width: 38%;
+}
+
+.facilities {
+  background: #5B6460;
+  padding: 150px 290px;
+}
+.facilities__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 120px;
+  color: #FFFFFF;
+}
+.facilities__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px 20px;
+}
+.facilities__item {
+  width: calc(25% - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.facilities__item-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.about {
+  position: relative;
+}
+.about__bg {
+  display: flex;
+}
+.about__img {
+  width: 50%;
+}
+.about__img2 {
+  width: 50%;
+}
+.about__btn {
+  cursor: pointer;
+  padding: 67px 27px;
+  border: none;
+  font-family: "DIN-Regular", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #333333;
+  border-radius: 50%;
+  position: absolute;
+  right: 45%;
+  top: 210px;
+}
+
+.stay {
+  padding: 150px 0;
+}
+.stay__content {
+  display: flex;
+  justify-content: center;
+  column-gap: 345px;
+  align-items: center;
+}
+.stay__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #5B6460;
+}
+.stay__address {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  margin: 50px 0 20px;
+}
+.stay__number, .stay__email {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+}
+.stay__icons {
+  display: flex;
+  column-gap: 75px;
+  align-items: center;
+  margin-top: 50px;
+}
+.stay__icon {
+  color: #E9ECE0;
+  background: #5B6460;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+}
+.stay__left {
+  display: flex;
+  flex-direction: column;
+}
+.stay__booking {
+  display: flex;
+}
+.stay__form-row {
+  display: flex;
+  column-gap: 24px;
+}
+.stay__form-name, .stay__form-surname {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: 0.7px solid #5B6460;
+  width: 318px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  padding-left: 22px;
+}
+.stay__form-email, .stay__form-sub {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: 0.7px solid #5B6460;
+  width: 660px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  padding-left: 22px;
+  margin: 24px 0;
+}
+.stay__form-text {
+  resize: none;
+  width: 660px;
+  height: 124px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: 0.7px solid #5B6460;
+  padding: 16px 0 0 22px;
+}
+.stay__form-btn {
+  font-family: "DIN-Regular", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 16px 80px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #5B6460;
+  border: 1px solid #5B6460;
+  color: #FFFFFF;
+  margin-top: 24px;
+  cursor: pointer;
+}
+.stay__love {
+  font-family: "Handlee", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #5B6460;
+  margin-top: 150px;
+}
+
+.footer {
+  background: #5B6460;
+  padding: 100px;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.footer__send {
+  display: flex;
+  column-gap: 250px;
+  align-items: center;
+  position: relative;
+}
+.footer__input {
+  margin: 40px 0 17px;
+  border: none;
+  background: transparent;
+}
+.footer__line {
+  position: absolute;
+  width: 443px;
+  height: 0px;
+  border: 1px solid #EFEFEF;
+  bottom: 6px;
+}
+.footer__input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.footer__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.footer__bottom {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #EFEFEF;
+  opacity: 0.7;
+  margin-top: 70px;
+}
+.footer__list {
+  display: flex;
+  column-gap: 33px;
+}
+.footer__item {
+  font-family: "DIN-Regular", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.footer__cards {
+  display: flex;
+  column-gap: 39px;
+  justify-content: right;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.hut__bg {
+  padding: 67px 423px 211px 423px;
+  background: url("../../src/images/hut/bg.png") center/cover no-repeat;
+}
+.hut__bg2 {
+  background: url("../../src/images/hut/bg2.png") center/cover no-repeat;
+}
+.hut__bg3 {
+  background: url("../../src/images/hut/bg3.png") center/cover no-repeat;
+}
+.hut__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 70px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.hut__title-address {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.hut__main {
+  display: flex;
+  column-gap: 141px;
+  align-items: center;
+  margin: 150px 0;
+}
+.hut__content-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #5B6460;
+}
+.hut__content-links {
+  display: flex;
+  column-gap: 31px;
+  margin: 50px 0;
+}
+.hut__content-link {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5B6460;
+  cursor: pointer;
+}
+.hut__content-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333333;
+}
+.hut__img {
+  width: 546px;
+  height: 478px;
+}
+
+.aboutus__bg {
+  background: url("../../src/images/about/aboutbg.png") center/cover no-repeat;
+  padding: 67px 423px;
+}
+.aboutus__bg-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 70px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 89px;
+}
+.aboutus__btns {
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+}
+.aboutus__btn {
+  font-family: "DIN-Regular", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: transparent;
+  border: 0.7px solid #FFFFFF;
+  padding: 14px 45px;
+  cursor: pointer;
+}
+.aboutus__row {
+  display: flex;
+  column-gap: 137px;
+  align-items: center;
+  margin-top: 150px;
+}
+.aboutus__content-title {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #5B6460;
+  margin-bottom: 32px;
+}
+.aboutus__content-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333333;
+}
+.aboutus__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  margin: 150px 0 100px;
+  color: #5B6460;
+  text-align: center;
+}
+.aboutus__pics {
+  display: flex;
+  column-gap: 24px;
+  margin-bottom: 24px;
+}
+.aboutus__pics-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  padding: 121px 66px;
+  color: #333333;
+  background: #E9ECE0;
+  opacity: 0.7;
+}
+
+.book__content {
+  margin: 150px 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 138px;
+}
+.book__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #5B6460;
+  position: relative;
+  margin-bottom: 50px;
+}
+.book__title::after {
+  content: "";
+  position: absolute;
+  width: 660px;
+  height: 0;
+  border: 0.7px solid #5B6460;
+  bottom: -25px;
+  left: 0;
+}
+.book__item {
+  margin: 25px 0;
+  background: #E9ECE0;
+  width: 660px;
+}
+.book__item-row {
+  display: flex;
+  align-items: center;
+  padding: 13px 20px;
+  column-gap: 20px;
+}
+.book__item-cont {
+  display: flex;
+  align-items: center;
+  width: 549px;
+  justify-content: space-between;
+}
+.book__item-plus {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #5B6460;
+  background: white;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+.book__item-check {
+  cursor: pointer;
+  border: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #5B6460;
+  padding: 11px 8px;
+}
+.book__item-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #333333;
+}
+.book__item-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 6px;
+  color: #333333;
+}
+.book__right {
+  padding: 22px 24px;
+  border: 0.7px solid #5B6460;
+}
+.book__right-list {
+  position: relative;
+}
+.book__right-list::after {
+  content: "";
+  position: absolute;
+  width: 384px;
+  height: 0;
+  border: 0.7px solid #5B6460;
+  bottom: -25px;
+  left: 0;
+}
+.book__right-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.book__right-title, .book__right-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+.book__right-days {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.book__date {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 21px;
+  border: 0.7px solid #5B6460;
+}
+.book__checkin-title {
+  font-family: "DIN-Regular", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #333333;
+}
+.book__checkin-add {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #828282;
+  border: none;
+}
+.book__checkin-plus {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+.book__total {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.book__total-title, .book__total-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #333333;
+}
+.book__btn {
+  font-family: "DIN-Regular", sans-serif;
+  padding: 16px 172px;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #5B6460;
+  border: 1px solid #5B6460;
+  cursor: pointer;
+}
+.book__rules {
+  margin: 100px 0 50px 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #5B6460;
+  position: relative;
+}
+.book__rules::after {
+  content: "";
+  position: absolute;
+  width: 384px;
+  height: 0;
+  border: 0.7px solid #5B6460;
+  bottom: -25px;
+  left: 0;
+}
+.book__rules-item {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333333;
+}
+.book__rules-btn {
+  font-family: "DIN-Regular", sans-serif;
+  padding: 14px 55px;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #5B6460;
+  border: 1px solid #5B6460;
+  cursor: pointer;
+  margin: 100px 0;
+  cursor: pointer;
+}
+
+.pay {
+  margin: 100px 0 150px 0;
+}
+.pay__content {
+  display: flex;
+  justify-content: space-between;
+}
+.pay__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #5B6460;
+}
+.pay__person {
+  display: flex;
+  column-gap: 24px;
+}
+.pay__input {
+  width: 318px;
+  height: 50px;
+  border: 0.7px solid #5B6460;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  margin: 24px 0;
+  padding-left: 22px;
+}
+.pay__card {
+  width: 660px;
+  height: 50px;
+  border: 0.7px solid #5B6460;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  margin-top: 24px;
+  padding-left: 22px;
+}
+.pay__row {
+  display: flex;
+  column-gap: 24px;
+}
+.pay__textarea {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #828282;
+  width: 660px;
+  height: 100px;
+  padding: 16px 0 0 22px;
+  resize: none;
+  margin-top: 20px;
+}
+.pay__check {
+  margin: 53px 0;
+}
+.pay__terms {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+.pay__terms span {
+  font-weight: 700;
+  text-decoration-line: underline;
+  color: #5B6460;
+  cursor: pointer;
+}
+.pay__btn {
+  font-family: "DIN-Regular", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #5B6460;
+  padding: 16px 125px;
+  border: 1px solid #5B6460;
+  cursor: pointer;
+}
+.pay__with {
+  display: flex;
+  column-gap: 380px;
+  align-items: center;
+}
+
+.faq {
+  margin: 100px 0 150px 0;
+}
+.faq__block {
+  display: flex;
+  align-items: center;
+  padding: 21px 24px;
+  justify-content: space-between;
+  width: 774px;
+  height: 60px;
+  margin: 24px 0;
+  border: 0.7px solid #5B6460;
+  background: transparent;
+}
+.faq__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+}
+.faq__hide {
+  padding: 21px 433px 24px 24px;
+  background: #E9ECE0;
+  width: 774px;
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.faq__hide-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}

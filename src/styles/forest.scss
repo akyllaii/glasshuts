@@ -1,0 +1,27 @@
+.forest{
+  &__content{
+    display: flex;
+  }
+  &__right{
+    width: 62%;
+    background: #E9ECE0;
+    padding: 100px 129px 0 110px;
+  }
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #5B6460;
+    margin-bottom: 50px;
+  }
+  &__text{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+  }
+  &__left{
+    width: 38%;
+  }
+}

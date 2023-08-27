@@ -1,0 +1,197 @@
+.book{
+  &__content{
+    margin: 150px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 138px;
+  }
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #5B6460;
+    position: relative;
+    margin-bottom: 50px;
+    &::after{
+      content: '';
+      position: absolute;
+      width: 660px;
+      height: 0;
+      border: 0.7px solid #5B6460;
+      bottom: -25px;
+      left: 0;
+    }
+  }
+  &__item{
+    margin: 25px 0;
+    background: #E9ECE0;
+    width: 660px;
+    &-row{
+      display: flex;
+      align-items: center;
+      padding: 13px 20px;
+      column-gap: 20px;
+    }
+    &-cont{
+      display: flex;
+      align-items: center;
+      width: 549px;
+      justify-content: space-between;
+    }
+    &-plus{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      color: #5B6460;
+      background: white;
+      width: 34px;
+      height: 34px;
+      text-align: center;
+      border-radius: 50%;
+      cursor: pointer;
+      border: none;
+    }
+    &-check{
+      cursor: pointer;
+      border: none;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: #5B6460;
+      padding: 11px 8px;
+    }
+    &-title{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: #333333;
+    }
+    &-price{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      margin-top: 6px;
+      color: #333333;
+    }
+  }
+  &__right{
+    padding: 22px 24px;
+    border: 0.7px solid #5B6460;
+    &-list{
+      position: relative;
+      &::after{
+        content: '';
+        position: absolute;
+        width: 384px;
+        height: 0;
+        border: 0.7px solid #5B6460;
+        bottom: -25px;
+        left: 0;
+      }
+    }
+    &-item{
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+    }
+    &-title,&-price{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #333333;
+    }
+    &-days{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+  }
+  &__date{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 21px;
+    border: 0.7px solid #5B6460;
+  }
+  &__checkin{
+    &-title{
+      font-family: 'DIN-Regular',sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      color: #333333;
+    }
+    &-add{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      color: #828282;
+      border: none;
+    }
+    &-plus{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #333333;
+    }
+  }
+  &__total{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    &-title,&-price{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: #333333;
+    }
+  }
+  &__btn{
+    font-family: 'DIN-Regular',sans-serif;
+    padding: 16px 172px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #5B6460;
+    border: 1px solid #5B6460;
+    cursor: pointer;
+  }
+  &__rules{
+    margin: 100px 0 50px 0;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #5B6460;
+    position: relative;
+    &::after{
+      content: '';
+      position: absolute;
+      width: 384px;
+      height: 0;
+      border: 0.7px solid #5B6460;
+      bottom: -25px;
+      left: 0;
+    }
+    &-item{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: #333333;
+    }
+    &-btn{
+      font-family: 'DIN-Regular',sans-serif;
+      padding: 14px 55px;
+      font-weight: 300;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      background: #5B6460;
+      border: 1px solid #5B6460;
+      cursor: pointer;
+      margin: 100px 0;
+      cursor: pointer;
+    }
+  }
+}

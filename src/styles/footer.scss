@@ -1,0 +1,73 @@
+.footer{
+  background: #5B6460;
+  padding: 100px;
+  &__content{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  &__send{
+    display: flex;
+    column-gap: 250px;
+    align-items: center;
+    position: relative;
+  }
+  &__input{
+    margin: 40px 0 17px;
+    border: none;
+    background: transparent;
+  }
+  &__line{
+    position: absolute;
+    width: 443px;
+    height: 0px;
+    border: 1px solid #EFEFEF;
+    bottom: 6px;
+  }
+  &__input::placeholder{
+    font-family: 'Open Sans',sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  &__text{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+  }
+  &__bottom{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #EFEFEF;
+    opacity: 0.7;
+    margin-top: 70px;
+  }
+  &__list{
+    display: flex;
+    column-gap: 33px;
+  }
+  &__item{
+    font-family: 'DIN-Regular',sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  &__cards{
+    display: flex;
+    column-gap: 39px;
+    justify-content: right;
+    margin-top: 60px;
+    align-items: center;
+  }
+}

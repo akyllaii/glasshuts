@@ -1,0 +1,113 @@
+.stay{
+  padding: 150px 0;
+  &__content{
+    display: flex;
+    justify-content: center;
+    column-gap: 345px;
+    align-items: center;
+  }
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #5B6460;
+  }
+  &__address{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    margin: 50px 0 20px;
+  }
+  &__number,&__email{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+  }
+  &__icons{
+    display: flex;
+    column-gap: 75px;
+    align-items: center;
+    margin-top: 50px;
+  }
+  &__icon{
+    color: #E9ECE0;
+    background: #5B6460;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  &__left{
+    display: flex;
+    flex-direction: column;
+  }
+  &__booking{
+    display: flex;
+  }
+  &__form{
+    &-row{
+      display: flex;
+      column-gap: 24px;
+    }
+    &-name,&-surname{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      border: 0.7px solid #5B6460;
+      width: 318px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      color: #828282;
+      padding-left: 22px;
+    }
+    &-email,&-sub{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      border: 0.7px solid #5B6460;
+      width: 660px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      color: #828282;
+      padding-left: 22px;
+      margin: 24px 0;
+    }
+    &-text{
+      resize: none;
+      width: 660px;
+      height: 124px;
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      border: 0.7px solid #5B6460;
+      padding: 16px 0 0 22px;
+    }
+    &-btn{
+      font-family: 'DIN-Regular',sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      padding: 16px 80px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      background: #5B6460;
+      border: 1px solid #5B6460;
+      color: #FFFFFF;
+      margin-top: 24px;
+      cursor: pointer;
+    }
+  }
+  &__love {
+    font-family: 'Handlee', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #5B6460;
+    margin-top: 150px;
+  }
+}

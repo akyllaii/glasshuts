@@ -1,0 +1,35 @@
+.faq{
+  margin: 100px 0 150px 0;
+  &__block{
+    display: flex;
+    align-items: center;
+    padding: 21px 24px;
+    justify-content: space-between;
+    width: 774px;
+    height: 60px;
+    margin: 24px 0;
+    border: 0.7px solid #5B6460;
+    background: transparent;
+  }
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+  }
+  &__hide{
+    padding: 21px 433px 24px 24px;
+    background: #E9ECE0;
+    width: 774px;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    &-text{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #333333;
+    }
+  }
+}

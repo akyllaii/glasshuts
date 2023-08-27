@@ -1,0 +1,52 @@
+.cabins{
+  margin: 150px 0;
+  &__top{
+    display: flex;
+    padding-left: 147px;
+    column-gap: 105px;
+    align-items: center;
+  }
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #5B6460;
+    margin-bottom: 50px;
+  }
+  &__text{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+  }
+  &__down{
+    overflow: hidden;
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    margin-top: 150px;
+    height: 53vh;
+    &-slide{
+      width: 100%;
+      display: flex;
+      padding: 0 20px;
+    }
+  }
+  &__slide{
+    height: 47vh;
+    flex: 1;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+  }
+}
+.active{
+  flex: 10;
+}
